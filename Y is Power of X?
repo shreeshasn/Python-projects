@@ -1,0 +1,9 @@
+#program to check is y is some powered value of x or not
+
+x=int(input('enter the number to apply the power:'))
+y=int(input('enter the number to check powered-x with:'))
+for i in range(0,1000):
+    if y==pow(x,i):
+        print('TRUE')
+        print(y,'is',x,'to the power of',i)
+        exit(0)

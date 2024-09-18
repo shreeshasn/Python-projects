@@ -1,0 +1,8 @@
+#Program to convert Decimal to Binary
+
+n=int(input())
+string=''
+while n>0:
+    string=str(n%2)+string
+    n=n//2
+print(string)

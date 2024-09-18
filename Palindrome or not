@@ -1,0 +1,8 @@
+#Program to check if string is Palindrome or not
+
+str=input()
+rev=str[::-1]
+if str==rev:
+    print('Palindrome')
+else:
+    print('not a Palindrome')

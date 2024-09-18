@@ -1,0 +1,10 @@
+#Program to check the no of squared integers in the given range
+
+a=int(input('enter the starting of the range{positive value}:'))
+b=int(input('enter the ending of the range{positive value}:'))
+count=0
+for i in range(a-1,b):
+    sqrt=math.sqrt(i)
+    if sqrt.is_integer()==True:
+        count+=1
+print('count:',count)

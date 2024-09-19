@@ -1,0 +1,12 @@
+#program to print Fizz, Buzz, Fizzbuzz, for multiples of 3 only ,5 only, and both 3 ,5 respectively
+ 
+n=int(input())
+for i in range(1,n+1):
+    if i%3==0 and i%5!=0:
+        print('Fizz')
+    elif i%5==0 and i%3!=0:
+        print('Buzz')
+    elif i%3==0 and i%5==0:
+        print('FizzBuzz')
+    else:
+        print(i)

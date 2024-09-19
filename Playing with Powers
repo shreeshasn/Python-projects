@@ -1,0 +1,10 @@
+#program to find a to the power of b
+a=int(input('Enter A:'))
+b=int(input('Enter B:'))
+print(a**b)
+
+
+#program to find bth root of a
+a=int(input('Enter A:'))
+b=int(input('Enter B{only even}:'))
+print(a**(1/b))

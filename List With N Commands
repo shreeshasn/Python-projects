@@ -1,0 +1,26 @@
+if __name__ == '__main__':
+    N = int(input())
+    l = []
+    for _ in range(N):
+        cmd = input()
+        cmdl = cmd.split()
+        inst = cmdl[0]
+        match inst:
+            case 'insert':
+                index = int(cmdl[1])
+                val = int(cmdl[2])
+                l.insert(index, val)
+            case 'remove':
+                val = int(cmdl[1])
+                l.remove(val)
+            case 'append':
+                val = int(cmdl[1])
+                l.append(val)
+            case 'sort':
+                l.sort()
+            case 'pop':
+                l.pop()
+            case 'reverse':
+                l.reverse()
+            case 'print':
+                print(l)

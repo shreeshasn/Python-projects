@@ -1,0 +1,11 @@
+l,key=[],0
+while(True):
+    match int(input('STACK OPTIONS: \n 1. PUSH \n 2. POP \n 3. EXIT \n')):
+        case 1:
+            l.append(int(input('\n Enter item to PUSH to Stack: \n')))
+            print('list after PUSH: \n',l)
+        case 2:
+            l.pop()
+            print('list after POP: \n',l)
+        case 3:
+            break

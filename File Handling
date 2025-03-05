@@ -1,0 +1,4 @@
+with open("he.txt","r") as f,open("new.txt","w+") as n:
+    print(set(f.read().split("\n")))
+    for i in s:
+        n.write(i+'\n')
